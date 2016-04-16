@@ -1,15 +1,15 @@
 # -*- coding: utf-8 -*-
 """
-Created on Fri Feb  5 10:24:30 2016
-
-@author: jose
+    This script uses the functions of understanding_delta with a particular corpus.
+    By José Calvo Tello
 """
 
-#
+
+# We import the file with the functions
 import understanding_delta as ud
 
-# Where are your texts? Are they in txt? My texts were in a folder called in a ubuntu system
-inpath = "/home/jose/cligs/textbox/es/novela-espanola/txt/"
+# Where are your texts? Are they in txt? My texts were in a folder called /novela-espanola/txt/ in a ubuntu system
+inpath = "/home/jose/Dropbox/Doktorarbeit/publications/git_publications2/understanding_delta/refranes/"
 
 # We call the functions that counts everything
 freqmatrix = ud.countWordfrequencies(inpath)

@@ -1,8 +1,10 @@
 # -*- coding: utf-8 -*-
 """
-Created on Thu Jan 14 11:06:25 2016
-
-@author: jose
+    This script defines the functions for Delta that understanding_delta_workflow is going to use.
+    To use this scripts in a normal way you don't have to change anything here
+    If you want to see the stage of the data in any some, just delete the # signal in the lines likes "#print(filename)"
+    
+    Script made by José Calvo Tello
 """
 # The modules that are needed are imported
 import pandas as pd
@@ -78,12 +80,7 @@ def countWordfrequencies(inpath):
     # We order the token list of the corpus by frequency
     sumfrequencies = sumfrequencies.order(ascending=False)
     
-    # We check if there are more than 5000 tokens in the corpus. If they are, then we take only the 5000 most frequent words (MFW)    
-    if sumfrequencies.count() > 5000:
-        sumfrequencies.drop(sumfrequencies.index[[5000,]])
-        print("text with more than 5000 tokens")
-    #print(sumfrequencies)
-
+    
     # Now we divide the frequency through the length of the whole text in order to get relative frequencies
     freqmatrix = freqmatrix.apply(lambda x: x / doclen)
     #print(freqmatrix)
@@ -91,28 +88,33 @@ def countWordfrequencies(inpath):
     # We add that to the table
     freqmatrix = freqmatrix.append(sumfrequencies)
     #print(freqmatrix)
-    
+
     # We rotate it
     freqmatrix = freqmatrix.T
 
     #And we sort it by frequency
     freqmatrix = freqmatrix.sort(["sumfrequencies"], ascending=False)
-    #print(freqmatrix)
+    print(freqmatrix)
 
     # If you want, you can print the first 10 words of each document
     #print(freqmatrix.iloc[0:10,:])
     #print(freqmatrix[0:10])
     
+    # We cut the table in case there are more than 5000 words in the corpus
+    freqmatrix = freqmatrix.head(5000)
+    print(freqmatrix)
+
     # We drop (delete) the sumfrequencies!
     freqmatrix = freqmatrix.drop("sumfrequencies", axis=horizontal)
     
     # We rotate it
     freqmatrix = freqmatrix.T
-    print("\n\n\n\nHere it is the frequency matrix!")
+
+    #print("\n\n\n\nHere it is the frequency matrix!")
     print(freqmatrix)
+    print(freqmatrix.shape)
 
     return freqmatrix
-
 
 
 def getZscore(freqmatrix):
