@@ -8,8 +8,8 @@
 # We import the file with the functions
 import understanding_delta as ud
 
-# Where are your texts? Are they in txt? My texts were in a folder called /novela-espanola/txt/ in a ubuntu system
-inpath = "/home/jose/Dropbox/Doktorarbeit/publications/git_publications2/understanding_delta/refranes/"
+# Where are your texts? Are they in txt? My texts were in a folder called "jose/understanding_delta/refranes/" in a ubuntu system
+inpath = "/home/jose/understanding_delta/refranes/"
 
 # We call the functions that counts everything
 freqmatrix = ud.countWordfrequencies(inpath)
