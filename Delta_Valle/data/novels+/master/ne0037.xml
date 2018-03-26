@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/16dbc551229adc490b871b934b9bee8cd4172303/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main">La media noche</title>
+				<title type="sub">visión estelar de un momento de guerra</title>
+				<title type="short">MediaNoche</title>
+				<title type="idno">
+					<idno type="bne">XX2215989</idno>
+					<idno type="viaf">313997394</idno>
+				</title>
+				<author>
+					<idno type="bne">XX1055436</idno>
+					<idno type="viaf">68936773</idno>
+					<name type="short">Valle</name>
+					<name type="full">Valle-Inclán, Ramón del</name>
+				</author>
+				<principal xml:id="jct">José Calvo Tello</principal>
+			</titleStmt>
+			<extent>
+				<measure unit="lines">373</measure>
+				<measure unit="divs">43</measure>
+				<measure unit="tokens">12230</measure>
+				<measure unit="chars">72072</measure>
+				<measure unit="size_kb">82</measure>
+
+				<measure unit="chapters">40</measure>
+				<measure unit="short-stories">0</measure>
+				<measure unit="parts">0</measure>
+				<measure unit="sections">0</measure>
+				<measure unit="divisions">0</measure> 
+				<measure unit="blocks">274</measure> 
+				<measure unit="lgs">0</measure> 
+				<measure unit="line_verses">0</measure> 
+				<measure unit="heads">41</measure> 
+				<measure unit="stages">0</measure> 
+				<measure unit="sps">0</measure> 
+				<measure unit="paragraphs">233</measure> 
+				<measure unit="abs">0</measure> 
+				<measure unit="fts">0</measure>
+				<measure unit="paragraphs_ds">112</measure> 
+				<measure unit="numbers">1</measure> 
+				<measure unit="puncts">2311</measure>
+			</extent>
+			<publicationStmt>
+				<publisher>CLiGS</publisher>
+				<availability status="free">
+					<p>The text is freely available.</p>
+				</availability>
+
+				<date when="2015">2015</date>
+				<idno type="cligs">ne0037</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl type="digital-source">Archive.org, <date when="2014">2014</date>, <idno></idno>, <ref target="https://archive.org/details/lamedianochevisi00vall"/>.</bibl>
+				<bibl type="print-source">Imprenta Clásica Española, <date when="1917">1917</date></bibl>
+				<bibl type="edition-first"><date when="1917">1917</date></bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<p></p>
+		</encodingDesc>
+		<profileDesc>
+			<abstract source="#jct">
+				<p>Descripción de una noche de la Primera Guerra mundial en varios lugares de la frontera entre Francia y Alemania. Se describen escenas cortas de trincheras, preparación de estrategia, curas de enfermos, familias moribundas y batallas entre aliados (franceses e ingleses) y alemanes (prusianos y bávaros).</p>
+			</abstract>
+			<textClass>
+				<keywords scheme="keywords.csv" cert="high">
+					<term type="author-continent">Europe</term>
+					<term type="author-country">Spain</term>
+					<term type="supergenre">narrative</term>
+					<term type="genre">novel</term>
+					<term type="subgenre-lithist"></term>
+					<term type="subsubgenre"></term>
+					<term type="genre-label"></term>
+					
+					<term type="subgenre" subtype="1">war-novel</term>
+					<term type="subgenre" subtype="2">historical</term>
+					<term type="subgenre" subtype="1">realist</term>
+					<term type="subgenre" subtype="1">social</term>
+					
+					<term type="narrative-perspective">heterodiegetic</term>
+					<term type="setting">rural</term>
+					<term type="protagonist-gender">other</term>
+					<term type="publication">book</term>
+					<term type="form">prose</term>
+					<term type="author-gender">male</term>
+					<term type="author-date-birth">1866</term>
+					<term type="author-date-death">1936</term>
+					<term type="author-TOC-range" resp="MdL8">8</term>
+					<term type="author-histlit-pages" resp="MdL8">162</term>
+					<term type="author-movement">modernism</term>
+					<term type="author-submovement">2-modernista</term>
+					<term type="author-non-novel-genre">theatre</term>
+					<term type="author-year-change">1920</term>
+					
+					
+					<term type="narrator">third-person</term>
+					<term type="setting-type">land</term>
+					<term type="setting-represented-exist">True</term>
+					<term type="setting-represented">mixed</term>
+					<term type="setting-name">mixed</term>
+					<term type="setting-territory">mixed</term>
+					<term type="setting-country">France</term><!--Also Germany-->
+					<term type="setting-continent">Europe</term>
+					
+					<term type="representation">realistic</term>
+					<term type="protagonist-name">unknown</term>
+					<term type="protagonist-social-level">low</term>
+					<term type="time-period">contemporary</term>
+					<term type="time-span">1</term>
+					<term type="group-text"></term>
+					
+					<term type="protagonist-profession">military personnel</term>
+					<term type="author-text-relation">none</term>
+					<term type="protagonist-age">adult</term>
+					<term type="type-end">negative</term>
+					<term type="text-movement">modernista</term>
+					<term type="text-TOC-range">4</term>
+					<term type="text-histlit-pages">2.0</term>
+				</keywords>
+			</textClass>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2015-02-09" who="#">Initial TEI version.</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<div>
+				<head>Breve noticia</head>
+				<p>Era mi propósito condensar en un libro los varios y diversos lances de un día de guerra en Francia. Acontece que, al escribir de la guerra, el narrador que antes fue testigo, da a los sucesos un enlace cronológico puramente accidental, nacido de la humana y geométrica limitación que nos veda ser a la vez en varias partes. Y como quiera que para recorrer este enorme frente de batalla, que desde los montes alsacianos baja a la costa del mar, son muchas las jornadas, el narrador ajusta la guerra y sus accidentes a la medida de su caminar: Las batallas comienzan cuando sus ojos llegan a mirarlas: El terrible rumor de la guerra se apaga cuando se aleja de los parajes trágicos, y vuelve cuando se acerca a ellos. Todos los relatos están limitados por la posición geométrica del narrador. Pero aquel que pudiese ser a la vez en diversos lugares, como los teósofos dicen de algunos fakires, y las gentes novelescas de Cagliostro, que, desterrado de París, salió a la misma hora por todas las puertas de la ciudad, de cierto tendría de la guerra una visión, una emoción y una concepción en todo distinta de la que puede tener el mísero testigo, sujeto a las leyes geométricas de la materia corporal y mortal. Entre uno y otro modo habría la misma diferencia que media entre la visión del soldado que se bate sumido en la trinchera, y la del general que sigue los accidentes de la batalla encorvado sobre el plano. Esta intuición taumatúrgica de los parajes y los sucesos, esta comprensión que parece fuera del espacio y del tiempo, no es sin embargo ajena a la literatura, y aun puede asegurarse que es la engendradora de los viejos poemas primitivos, vasos religiosos donde dispersas voces y dispersos relatos se han juntado, al cabo de los siglos, en un relato máximo, cifra de todos, en una visión suprema, casi infinita, de infinitos ojos que cierran el círculo. Cuando los soldados de Francia vuelvan a sus pueblos, y los ciegos vayan por las veredas con sus lazarillos, y los que no tienen piernas pidan limosna a la puerta de las iglesias, y los mancos corran de una parte a otra con alegre oficio de terceros; cuando en el fondo de los hogares se nombre a los muertos y se rece por ellos, cada boca tendrá un relato distinto, y serán cientos de miles los relatos, expresión de otras tantas visiones, que al cabo habrán de resumirse en una visión, cifra de todas. Desaparecerá entonces la pobre mirada del soldado, para crear la visión colectiva, la visión de todo el pueblo que estuvo en la guerra, y vio a la vez desde todos los parajes todos los sucesos. El círculo, al cerrarse, engendra el centro, y de esta visión cíclica nace el poeta, que vale tanto como decir el Adivino.</p>
+				<p>Yo, torpe y vano de mí, quise ser centro y tener de la guerra una visión astral, fuera de geometría y de cronología, como si el alma, desencarnada ya, mirase a la tierra desde su estrella. He fracasado en el empeño, mi droga indica en esta ocasión me negó su efluvio maravilloso. Estas páginas que ahora salen a la luz no son más que un balbuceo del ideal soñado. Volveré a Francia y al frente de batalla para acendrar mi emoción, y quién sabe si aun podré realizar aquel orgulloso propósito de escribir las visiones y las emociones de <seg rend="italic">Un día de guerra</seg>.</p>
+				<p>V.-I.</p>
+			</div>
+			<div>
+				<p>Filo de media noche encendí la lámpara. Me puse delante, y mi sombra cubría el muro. Abrí el libro y deletreé las palabras con que se desencarna el alma que quiere mirar el mundo fuera de geometría. Después apagué la lámpara y me acosté sobre la tierra con los brazos en cruz como el libro previene. Artephius, astrólogo siracusano, escribió este libro y que se llama en latín Clavis Mayores Sapientle.</p>
+			</div>
+		</front>
+		<body>
+
+			<div n="1" type="chapter" xml:id="ne0037_chap1">
+				<head>La media noche ¶ Cap. I</head>
+				<p>Son las doce de la noche. La luna navega por cielos de claras estrellas, por cielos azules, por cielos nebulosos. Desde los bosques montañeros de la región alsaciana, hasta la costa brava del mar norteño, se acechan dos ejércitos agazapados en los fosos de su atrincheramiento, donde hiede a muerto como en la jaula de las hienas. El francés, hijo de la loba latina, y el bárbaro germano, espurio de toda tradición, están otra vez en guerra. Doscientas leguas alcanza la línea de sus defensas desde los cantiles del mar hasta los montes que dominan la verde plana del Rhin. Son cientos de miles, y solamente los ojos de las estrellas pueden verlos combatir al mismo tiempo, en los dos cabos de esta línea tan larga, a toda hora llena del relampagueo de la pólvora y con el trueno del cañón rodante por su cielo.</p>
+			</div>
+			<div n="2" type="chapter" xml:id="ne0037_chap2">
+				<head>¶ CAP. II</head>
+
+				<p>Las trincheras son zanjas barrosas y angostas. Amarillentas aguas de lluvias y avenidas las encharcan. Se resbala al andar. Los ratones corren vivaces por los taludes, las ratas aguaneras por el fondo cenagoso, y ráfagas de viento traen frías pestilencias de carroña. En el talud de las trincheras los zapadores han cavado hondos abrigos donde se guarecen escuadras de soldados, y en los lugares más propicios para las escuchas y centinelas, silos con miraderos disimulados entre pedruscos y ramajes. Desde estas atalayas se hace la descubierta de las líneas enemigas, y los artilleros, comunicándose por sus teléfonos, regulan el tiro de los cañones, siempre emplazados más atrás que las primeras defensas. Ante los dos fosos enemigos se tienden campos de espinosas alambradas, y hay esguevas donde los muertos de las últimas jornadas se pudren sobre los huesos ya mondos de aquellos que cayeron en los primeros días de la invasión. La tierra en torno está como arada. La metralla taló los árboles y abrasó la yerba. Del fondo de las trincheras surgen cohetes de luces rojas, verdes y blancas, que se abren en los aires de la noche oscura, esclareciendo brevemente aquel vasto campo de batallas. Corre un alerta desde los cantiles del mar norteño, hasta los bosques montañeros que divisan el Rhin.</p>
+			</div>
+			<div n="3" type="chapter" xml:id="ne0037_chap3">
+				<head>¶ CAP. III</head>
+
+				<p>En las sombras de la noche, largos convoyes que llevan municiones al frente de batalla, ruedan por los caminos. Los cohetes de las trincheras abren sus rosas en el aire, los reflectores exploran la campaña y la esclarecen hasta el confín lejano de bosques y montes. Se muestra de pronto el espectro de un pueblo en ruinas, quemado y saqueado, mientras por la carretera, en el lostrego del reflector, corre cojeando algún perro sin dueño. Al abrigo de los bosques, filas y filas de carros esperan inmóviles la orden de ruta, con los soldados de la escolta descansando al borde del camino y fumando una pipa de tabaco belga. Se oye el cañón, cuándo lento, cuándo en vivo fuego de ráfagas, y los soldados hacen conjeturas con palabras breves, casi indiferentes. Llega un ciclista sonando el timbre tercamente: Trae la orden de ruta que el sargento deletrea a la luz de una linterna, y el convoy se pone en marcha. Todos los caminos de la retaguardia sienten el peso de los carros de municiones, que, escoltados por veteranos, se bambolean con estridente son de hierros. Ruedan con los faroles apagados, informes bajo las estrellas, sumidos unas veces en la sombra de las arboledas, y otras destacando su línea negra por alguna carretera blanquecina y desnuda. Son tantos que no se pueden contar, son cientos y cientos. Ruedan hacia las trincheras lentamente, pesadamente. Cuando pasan cerca de alguna aldea, ladran los perros y alborean los gallos.</p>
+			</div>
+			<div n="4" type="chapter" xml:id="ne0037_chap4">
+				<head>¶ CAP. IV</head>
+
+				<p>Y la luna navega por cielos de claras estrellas, por cielos azules, por cielos de borrasca: Sobre las doscientas leguas de foso cenagoso, los cohetes abren sus rosas, tiembla la luz de los reflectores, y en la tiniebla del cielo bordonean los aviones que llevan su carga de explosivos para destruir, para incendiar, para matar... Ocupan la carlinga alegres oficiales, locos del vértigo del aire, como los héroes de la tragedia antigua del vértigo erótico. Vestidos de pieles, con grandes gafas redondas, y redondos cascos de cuero, tienen una forma embrionaria y una evocación oscura de monstruos científicos. Vuelan contra el viento y a favor del viento, les dicen su camino las estrellas. Unos van perdidos atravesando cóncavos nublados, otros planean sobre el humo y las llamas de los incendios, otros van en la luz de la luna, tendidos en escuadrilla. Aquel que zozobra entre ráfagas de agua y viento del mar, es de un aeródromo inglés, en la Picardía. Y estos que retornan y aterrizan en silencio, son franceses: Partieron en el anochecido, eran siete y no son más que cinco: Tras ellos queda ardiendo un tren de soldados alemanes. Los pilotos saltan sobre la yerba, y se alejan entumecidos, mientras algunos soldados con linternas, empujan los aviones bajo los cobertizos, y vierten cubos de agua en los motores recalentados. Es un campo de aviación a retaguardia de las líneas donde se batalla, en un paraje llano revestido de céspedes. Ligeras tiendas, grandes cobertizos, alpendes y galpones, hacen ruedo sobre la yerba, tienen el color de la noche y se desvanecen en ella: Sólo realza sus siluetas la luna cuando navega por claros cielos estrellados.</p>
+			</div>
+			<div n="5" type="chapter" xml:id="ne0037_chap5">
+				<head>¶ CAP. V</head>
+
+				<p>Granizos y ventiscas en los montes alsacianos y en los Vosgos.—Ya cantó dos veces el gallo.—Las trincheras tienen una cresta blanca, y, soterrados en ellas, vestidos de pieles como pastores, los centinelas acechan el campo enemigo, asomando apenas tras el parapeto cubierto de nieve. Hay un cañoneo lento, que tiene largas y encadenadas resonancias. La luz de los reflectores vuela sobre las cumbres, llega al fondo de las selvas, ilumina el tronco de los abetos y el albo talud de las zanjas, por donde corren en fila india los soldados que acuden a reforzar las defensas del Hartmanwillerkopf.</p>
+				<p>—El Viejo Armando, en la jerga de los peludos.—Sobre el sudario de la nieve, los cohetes abren sus rosas de colores. Entre Thann y Metzeral se ha iniciado un fuego de ráfagas, y en los puestos de escucha, los canes, agazapados a la vera de los soldados, se avizoran.</p>
+			</div>
+			<div n="6" type="chapter" xml:id="ne0037_chap6">
+				<head>¶ CAP. VI</head>
+
+				<p>El sargento de un retén, en lo alto de la montaña, destaca dos centinelas de pérdida: Salen cautelosos, arrastrándose sobre la nieve, se sumen en la noche. La trinchera alemana, toda bardelada y defendida por espinosa red de alambre, está al otro lado de un calvero, no más lejos de cien pasos.</p>
+				<p>Las grandes balas cruzan silbando, y, de tiempo en tiempo, un abeto viene a tierra con sordo rumor de marejada. Los soldados corren en pequeños grupos, la cabeza vuelta, los hombros levantados. Cruje otro tronco. La metralla está segando el bosque: Donde cae una bomba fulmina una llama. Los dos centinelas de pérdida se arrastran cautelosos, y, cuando el lostrego de los reflectores explora y revela el campo, quédanse aplastados: Con las carnes estremecidas, pisan sobre un montón de cadáveres medio enterrados en la nieve: Al pisar, parece que se les incorporan bajo los calcañares. Los dos centinelas pasan sobre los muertos llevándose su olor: Ya tocan las alambradas, y en aquel momento una violenta sacudida los echa por los aires con las ropas encendidas:</p>
+				<p>El repuesto de cartuchos que llevan en las cananas estalla como una cohetada: Caen ardiendo, simulan dos peleles. De los cascos sale una llama azul. Los soldados franceses, desde sus trincheras, miran el suceso con pena. En el Observatorio de Langenfeldkopf, un teniente murmura hablando con su compañero:</p>
+				<p>—Los boches han reforzado sus defensas con un cable eléctrico, imitando lo que hicimos nosotros en la Indo-China.</p>
+			</div>
+			<div n="7" type="chapter" xml:id="ne0037_chap7">
+				<head>¶ CAP. VII</head>
+
+				<p>Los alemanes, aprovechando la oscuridad de la noche, salen de sus trincheras y llegan a las defensas avanzadas de los franceses. De pronto el ladrido de un perro da el alerta, y la luz de un reflector los descubre arrastrándose sobre la nieve, rota la formación y muy dispersos. Los franceses abren el fuego. Los alemanes, con impulso unánime, se incorporan y corren hacia las líneas enemigas arrojando granadas de mano. Cuando unos caen, otros los secundan: Suben arrastrándose, combaten en oleadas. Los franceses, al abrigo de sus defensas, hacen fuego de fusil. Es una avanzada de veteranos alpinos, y en pocos instantes sólo quedan setenta hombres ilesos. Las granadas caen dentro de la trinchera. Están rotos los hilos del teléfono, y dos soldados se destacan voluntarios para reparar la avería: Estalla una granada, y dobla al uno sobre el otro: Quedan en un escorzo blando, sin horror, como dos hermanos que se besan. El teniente de la segunda compañía, metido en la garita del teléfono, escribe un parte. Se oyen los gritos de los alemanes al penetrar en la trinchera. El teniente dobla el papel y lo sujeta bajo el collar de un perro que espera moviendo la cola: Le halaga, le saca fuera y lo hace rastrear. Parte el can como una centella. El teniente da algunos pasos y tropieza con un herido que se queja caído en el fondo de la trinchera. Otro se venda la frente algo más lejos. El Teniente Breal los anima con una gran voz:</p>
+				<p>—¡Viva la Francia! ¡Arriba los muertos!</p>
+				<p>Y los muertos se levantan, y hay una gran basculada dentro de aquel foso lleno de oscuridad, de fango y de tumulto. Dos ametralladoras francesas rompen el fuego sobre el árido descampado por donde avanzan los alemanes. Sus tiros se cruzan metódicamente como una expresión matemática, indiferente y cruel a los hombres. A través de la selva nevada huye la sombra del can: Corre al flanco de un foso, entra por una senda donde están detenidos muchos carros en fila: Aparece y desaparece: Salva de un salto el ramaje de los abetos caídos sobre el camino: Corre con el ijar sobre la tierra: Bajo la luz de los reflectores se agacha igual que hacen los soldados. Vuelve a vérsele sobre la orilla del foso, rastrea, desciende por el talud, se mete por el fondo y, moviendo la cola, entra en una casamata. Dos oficiales escriben a la luz puntiaguda de un quinqué, y el can, haciendo corcovos, se coloca entre ellos, de manos sobre la mesa. El Teniente Rousell le halaga y saca el parte que lleva sujeto en el collar. Comienza a leerlo, y el otro oficial lo va silabeando delante del teléfono:</p>
+				<p>—Comandancia de brigada.—Transmito parte del Teniente Breal.—2ª Compañía de Cazadores Alpinos. —Fuerzas alemanas, con un golpe de mano, han conseguido penetrar en nuestras defensas. Me sostengo con los hombres que me quedan, pero necesito ser auxiliado urgentemente. Tengo el mando por desaparición del Capitán Douchesne.— Teniente Breal.</p>
+			</div>
+			<div n="8" type="chapter" xml:id="ne0037_chap8">
+				<head>¶ CAP. VIII</head>
+
+				<p>Entre Thann y Metzeral el cañoneo de tarde en tarde se enrabia, pero luego decae en su terca y lenta medida. Los dos fosos enemigos galguean por negros bosques y resonantes quebradas, cuándo despeñados, cuándo cimeros. Cruje astillado el tronco de los abetos, y al doblarse bajo la tempestad de nieve y de metralla, el ramaje ciega los caminos. Metzeral está ardiendo, y la vislumbre de las llamas corre sobre las aguas del río: A una y otra orilla, las casas muestran sus esqueletos rojos y humeantes: Caen sordamente los muros y las techumbres. Desde el comienzo de la guerra resplandecen todas las noches las hogueras de Metzeral. En los pórticos de las iglesias, bajo las rotas arcadas, se guarecen mujeres y niños. Las vacas de un establo andan perdidas sonando las esquilas. En las calles abandonadas, se amontonan huchas, camas y ropas. Un matrimonio con dos niños mira arder su casa, acurrucado al abrigo de otras casas en ruinas. El hombre tiene en brazos al más pequeño, y la mujer llora con los dedos enredados en la mata despeinada. El infante se queja con un balido, y el padre le contempla sin hablar, llenos de tristeza los ojos. A su lado, con la cabeza sobre un cesto boca abajo, duerme una niña: El padre la ha cubierto con su chaquetón, y asomante los pies calzados con zuecos y medias azules. La madre se levanta con un repente, y descubre el rostro pálido del pequeño:</p>
+				<p>—¡Se muere! ¡Se muere! ¿No ves que se muere? ¡Ya no tenemos hijo!</p>
+				<p>El hombre calla, y la mujer mira al marido:</p>
+				<p>—No puede ser que le tengas constantemente... Debes estar muerto... ¡Dámele!</p>
+				<p>El hombre mueve la cabeza. Entonces la mujer llora:</p>
+				<p>—¡Qué horror de guerra! ¡Éramos tan felices!</p>
+				<p>La pequeña se revuelve bajo el chaquetón, se incorpora sobresaltada, dando gritos:</p>
+				<p>—¡Se murió nuestro bebé! ¡Se murió nuestro bebé!</p>
+				<p>El padre murmura sombríamente:</p>
+				<p>—¡Aún no!</p>
+				<p>También responde el balido triste. La madre arrebata al niño de los brazos del padre: El niño tuerce los ojos, tiene una sacudida, y de la nariz afilada le afluye un hilo escaso de sangre negra. La hermana sigue gritando:</p>
+				<p>—¡Se murió nuestro bebé! ¡Se murió nuestro bebé!</p>
+				<p>El padre la toma en brazos y pega su rostro contra el rostro de ella:</p>
+				<p>—¡Calla, hija mía! ¡Calla!</p>
+				<p>La pequeña comprende, y, sofocando los sollozos, besa suave, suavemente, la barba del padre. Pero luego torna a suspirar:</p>
+				<p>—¡Se murió nuestro bebé!</p>
+				<p>Y comienza la madre:</p>
+				<p>—¡Se lo llevó Dios! ¡Se lo llevó Dios! ¡Se lo llevó Dios!</p>
+				<p>Tiene el gesto obstinado, y los ojos secos. Con dos dedos oprime los párpados rígidos de su niño muerto. Los cazadores alpinos desfilan hacia las trincheras, pasan sin verlos, encorvados bajo la borrasca de nieve. Se hunde el techo de una casa, y en las calles desiertas resuena el galope de las vacas perdidas, con el tolón, tolón de los cencerros. El cañoneo, terco y lento, no cesa entre las dos hogueras de Thann y Metzeral.</p>
+			</div>
+			<div n="9" type="chapter" xml:id="ne0037_chap9">
+				<head>¶ CAP. IX</head>
+
+				<p>¡Los ecos de la guerra se enlazan desde la costa norteña hasta los montes alsacianos! Al estampido de las bombas surgen las llamas de los incendios: Arden las mieses, y las sobrecogidas aldeas, y las ciudades que lloran al derrumbarse las torres de sus catedrales. Caen miles y miles de soldados en la gran batalla nocturna, y quedan rígidos y fríos bajo el temblor de las estrellas. Las escuadras se aclaran de pronto: A veces, rompiéndose por el centro para buscar el ataque de flanco, a veces bajo una bomba que estalla y abre en ellas brecha como en el fuerte muro de un castillo. Las ametralladoras cruzan sus fuegos haciendo raya, desgranan sus tiros sobre anchos espacios, arrasan las líneas de soldados: Unos, caen al modo de peleles recogiendo grotescamente las piernas; otros, abren los brazos y quedan aplastados sobre la tierra; otros, se doblan muy despacio sobre el hombro del camarada. Y entre tan diversos modos de morir, se arrastran los heridos oprimiéndose las carnes desgarradas, sintiendo fluir por entre los dedos la sangre tibia, dilatados los ojos con el horror de ser hechos prisioneros. Miles de cañones hacen fuego en batería, y bajo el impulso de los grandes proyectiles, se abre el aire con aquella queja dilatada y profunda que tienen las gatas al parir.</p>
+				<p>Por caminos que cavaron los zapadores, y alcanzan hasta la línea de fuego, los camilleros conducen a los heridos. El primer socorro se les prestó en la trinchera al amparo de profundas casamatas que tienen charcos de sangre en el piso terreño, y el aire impregnado de olor a cloroformo. Sobre la cuneta de las carreteras, procurando el socaire de bosques y colinas, esperan inmóviles, en largas hileras, los carros de la Cruz Roja. Las ambulancias están en la retaguardia, repartidas por los graneros y establos de las quintas, en las salas de los castillos, en los cafés con espejos rayados y tules para las moscas, en las cuevas de los pueblos aun ardiendo. ¡El dolor de la guerra estremece y conforta el alma de Francia!</p>
+			</div>
+			<div n="10" type="chapter" xml:id="ne0037_chap10">
+				<head>¶ CAP. X</head>
+
+				<p>Nieblas espesas en la costa del mar.—Ya cantó dos veces el gallo.—Las estrellas tiemblan sobre la gran plana inundada de las Flandes. Cerca de Furnes, en un estero, la marinería desembarcada de la escuadra forma la vanguardia. Sopla el viento del mar, y la resaca arrastra hacia la orilla los cadáveres amoratados e hidrópicos de algunos soldados alemanes: Flotan entre aguas: Una ola los levanta en la espumosa cresta, otra ola los anega. Sus botas negras y encharcadas se entierran en la arena, sus grandes cuerpos hinchados tumban sordamente. La escuadra de marineros que acordona la playa permanece silenciosa, mirando al horizonte rizado y sin fondo. Son pescadores de Normandía y de Bretaña, mozos crédulos, de claros ojos, almas infantiles valientes para el mar, abiertas al milagro, y temerosas de los muertos. Muchos rezan en voz baja, acordándose de las apariciones en los cementerios y en los pinares de sus aldeas; otros trincan aguardiente y humean la pipa; tal vez alguno prueba a cantar. La luna navega en cerco de nieblas, y los cuerpos hidrópicos de los soldados alemanes vienen y van con la resaca.</p>
+			</div>
+			<div n="11" type="chapter" xml:id="ne0037_chap11">
+				<head>¶ CAP. XI</head>
+
+				<p>Un teniente de navío, acompañado de un condestable, baja por la ribera redoblando las guardias. Saluda la marinería, y todos, como niños, sienten que se disipa en presencia del jefe aquel miedo a los difuntos que les hace rezar y cantar. Un cabo de cañón sale de la fila y se destaca sobre el camino, la mano a la altura de la sien:</p>
+				<p>—Con licencia, mi teniente. ¿Nos autoriza usía para ponerles velas?...</p>
+				<p>Y señalaba los cadáveres de los boches embarrancados en la playa. El teniente comprende y sonríe:</p>
+				<p>—¿No será mejor enterrarlos?</p>
+				<p>—Salvo su parecer, mi teniente, mejor es ponerlos velas, y que se los lleve el viento.</p>
+				<p>De un grupo de marineros salen diferentes voces:</p>
+				<p>—¡Que se los lleve el viento! ¡Que se los lleve el viento!...</p>
+				<p>Son voces graves, temerosas y atónitas: Su murmullo tiene algo de rezo. Un marinero de la costa bretona se santigua:</p>
+				<p>—¡Los vivos y los muertos no deben dormir juntos!</p>
+				<p>El oficial hace un gesto de indiferencia:</p>
+				<p>—Pues que se los lleve el viento.</p>
+				<p>—¡A la orden, mi teniente!</p>
+				<p>El grupo de marineros se dispersa por la playa, y los unos a los otros se van diciendo de quedo:</p>
+				<p>—¡Hala! A ponerles velas.</p>
+				<p>Alguno pregunta:</p>
+				<p>—¿Y el teniente?</p>
+				<p>—Es el teniente quien lo manda.</p>
+			</div>
+			<div n="12" type="chapter" xml:id="ne0037_chap12">
+				<head>¶ CAP. XII</head>
+
+				<p>La marinería se arremanga y entra chapoteando por el agua llena de fosforescencias. A lo largo de la playa flotan más de cien cadáveres alemanes inflados y tumefactos. Uno hay que no tiene cabeza; otros descubren en el vientre y en las piernas lacras amoratadas, casi negras. Comienza la faena de ponerles velachos con las pértigas y lienzos de las tiendas. Valiéndose de los bicheros, les hacen brechas en la carne hidrópica, y clavan los astiles donde van las lonas. Luego, supersticiosos y diestros, los empujan hasta encontrar calado: Sesgan la vela buscando que la llene el viento, y, al tobillo o al cuello, les amarran las escotas. Los muertos se alejan de la playa como una escuadrilla de faluchos: Se les ve alinearse bajo la luna, y partir hacia el horizonte marino empujados por la fresca brisa que sopla del tercer cuadrante. Pasa un aliento de alegría sobre aquellas almas infantiles y crédulas. Un grumete, con la gorra en la mano, y las luces de las estrellas en los ojos fervorosos, clama en su vieja lengua céltica:</p>
+				<p>—¡Madre del Señor! ¡Ya no tengo miedo a los muertos!</p>
+			</div>
+			<div n="13" type="chapter" xml:id="ne0037_chap13">
+				<head>¶ CAP. XIII</head>
+
+				<p>Lento cañoneo del lado de Ipres. Por el fondo de la trinchera corre un arroyo de fango; los centinelas se agazapan con los fusiles apoyados sobre el talud; pequeñas escuadras de soldados dormitan en los abrigos cavados a lo largo del foso. De tiempo en tiempo, los pasos del oficial que recorre la línea se detienen a la entrada:</p>
+				<p>—¡Ánimo, muchachos!</p>
+				<p>Los soldados se remueven en la sombra haciendo marea, responden runflando, palpan a tientas los fusiles. El oficial se aleja, sigue recorriendo las avanzadas. Muchos peludos, cubiertos con encerados, descansan echados en el fondo de la trinchera, y sobre las cajas de granadas de mano reclinan la cabeza. El oficial pasa entre ellos despacio y tentando con el bastón. De pronto, algún centinela que dormita, se despierta sobresaltado y dispara su fusil. Corre la alarma. Hay fusiladas caprichosas; vuelan los cohetes, y los peludos que reposan en el fondo de la trinchera se incorporan, metiendo la mano en las cajas de granadas. El fuego se extingue lentamente; la línea vuelve a quedar en sombra, estremecida y vigilante, en una espera tensa, que agota más que la lucha.</p>
+			</div>
+			<div n="14" type="chapter" xml:id="ne0037_chap14">
+				<head>¶ CAP. XIV</head>
+
+				<p>No tiene término en la noche la lívida llanura, y, en medio de la bruma, al claro lunar, se revela el espectro de una ciudad bombardeada: La ciudad de Arras. Negras y destripadas humean las casas; la catedral es un montón de piedras; los sillares desbordan por las bocas de cuatro calles y las ciegan: Rosetones y cruces, gárgolas y capiteles mutilados asoman entre los escombros. Las bombas caen abriendo grandes hoyos sobre la plaza de los porches, llena del recuerdo español, y muchas casas, con las puertas abiertas y las ventanas batiendo al viento, muestran la hondura tenebrosa del zaguán, donde se amontonan los ajuares. Se aleja un carromato: Bambolea su carga de huchas, cacerolas y colchones: En lo alto va una cuna. La ciudad parece abandonada: Hay parajes donde las casas se aplastaron y esparramaron por tierra como los castilletes que levantan los niños, y calles enteras donde los esqueletos permanecen en pie, con las fachadas en escombros, mostrando los interiores burgueses, en una angustia de abandono, llena de gritos de mujeres y llanto de niños asustados que se agarran a las faldas. En una costanilla, al abrigo del bombardeo, cargan otro carromato. Hay un grupo de mujeres que se besan. El mayoral pone prisa, y al cabo montan en el carro los que se van: Una viuda con dos hijas, dos muchachas pálidas, el cabello despeinado, los ojos llorosos. Llegaron poco hace huidas de Combles. El padre se fue a la guerra, y las dos muchachas están encinta de un soldado alemán.</p>
+			</div>
+			<div n="15" type="chapter" xml:id="ne0037_chap15">
+				<head>¶ CAP. XV</head>
+
+				<p>El carro comienza a rodar, y las tres mujeres se santiguan. Poco después la madre dormita. El carro rueda por una carretera toda en claro de luna: Las muchachas miran con recelo al camino, levantan las lonas, y sus ojos tristes siguen la luz roja de los aviones, que cruzan el cielo como estrellas errantes. Se oye lejano bombardeo, y se siente en torno la fragancia húmeda del heno. De tiempo en tiempo, al borde de la carretera, aparece confusamente una gran mancha de ganado que acampa en el fondo de las praderas; otras veces es una aldea en ruinas. La carretera se alarga sobre la llanura, se alarga infinitamente: Grandes molinos de viento, con las aspas quietas, la miran desde lejos enhiestos sobre los alcores. Se columbran las granjas entre ramajes de un negro vaporoso, rayos de luz se filtran por los resquicios de los postigos, y se adivina el interior lleno de soldados. Una de las muchachas asoma la cabeza por entre las lonas del carro, e interroga al mayoral con la voz llena de pena:</p>
+				<p>—¿Falta mucho, amigo?</p>
+				<p>El mayoral responde confusamente, con la pipa entre los dientes:</p>
+				<p>—Menos que al principio.</p>
+				<p>La niña sonríe apenas, cierra los ojos y se oprime la cintura:</p>
+				<p>—¡Se me abre el cuerpo de dolor!</p>
+			</div>
+			<div n="16" type="chapter" xml:id="ne0037_chap16">
+				<head>¶ CAP. XVI</head>
+
+				<p>De pronto el carro se detiene bamboleante, y el mayoral salta a tierra. Vacía la pipa, renegando la golpea contra la llanta de una rueda, y se la guarda en la zamarra. Las tres mujeres se miran asustadas. La madre interroga a las muchachas:</p>
+				<p>—¿Qué sucede, hijas mías? ¡Ay, qué sueño malo! ¡Qué sueño malo! ¿Pero qué su cede?</p>
+				<p>El mayoral levanta la lona y saca una pértiga del fondo del carro:</p>
+				<p>—¡No hay que asustarse, señoras! Es un caballo muerto.</p>
+				<p>Estaba tendido en medio de la carretera, casi llenándola de lado a lado, rígido, negro, enorme. Tenía rasgado el vientre, y el bamdullo fuera, en un charco de sangre pegajosa. El mayoral, metiéndole la pértiga y apalancándola por debajo del costillar, le arrumba a un lado del camino. Queda medio enterrado en la cuneta, con el cuello torcido y las cuatro patas en alto:</p>
+				<p>—¡Lástima de bestia!</p>
+				<p>El mayoral salta al pescante y empuña de nuevo las riendas. Las tres mujeres, como al comienzo del viaje, se santiguan y rezan. Cruza una tropa de jinetes indios, los rostros oscuros, los turbantes blancos. Hay largas hileras de carros inmóviles sobre un lado del camino, carros de ametralladoras, carros de municiones, carros de forraje. Son tantos que no se pueden contar. Dos automóviles pasan veloces; dejan un rastro de polvo y gasolina; conducen oficiales del Estado Mayor. Nueva tropa de jinetes indios, nuevos carros inmóviles a lo largo del camino, y una difusa fila de infantes, nebulosos, encorvados, taciturnos: Se apoyan en herrados bastones y llevan la mochila a la espalda. Al atravesar una aldea se oye una gaita de escoceses. Dos viejos rurales detienen el carro; el mayoral les entrega la orden de ruta, y se la devuelven tras de leerla a la luz de un farol. El carro torna a rodar. Una de las muchachas no cesa en su queja:</p>
+				<p>—¡Ay, Virgen Santa!... ¡Se me rompe el cuerpo de dolor!</p>
+			</div>
+			<div n="17" type="chapter" xml:id="ne0037_chap17">
+				<head>¶ CAP. XVII</head>
+
+				<p>Ahora, a uno y otro lado del camino, aparecen campos cubiertos de cruces: Se agrandan sus brazos en el vaho de bruma que llena los ámbitos de la noche, y toda su forma se difunde en un halo. Sobre el talud de la carretera reposa larga fila de muertos: Cavan cuatro azadones y se percibe el olor de la tierra removida. Anda un grupo de soldados identificando los cadáveres, y los rostros lívidos surgen de pronto bajo el cono de luz de las linternas. Habla una voz en la sombra:</p>
+				<p>—¡Aquí hay quien no tiene cabeza!</p>
+				<p>Y otra voz lejana interroga:</p>
+				<p>—¿Es un zuavo?</p>
+				<p>—Le habrá rodado... Yo recuerdo que se la puse sobre la tripa.</p>
+				<p>Entre la niebla y las estrellas, las figuras, las luces y las voces, guardan el acorde remoto que enlaza la vida y los sueños. Un camillero que pasea la luz de su linterna cateando por la cuneta de la carretera, da una voz hablando a los del otro cabo:</p>
+				<p>—¡Ya pareció aquello!</p>
+				<p>Y levanta la cabeza trunca manchada de tierra y de sangre. Otro soldado clava el zapapico en el borde de una cueva que casi le cubre, y salta fuera:</p>
+				<p>—¡Está abierta la cama para otros tres boches!</p>
+				<p>Responden del camino:</p>
+				<p>—¡Allá van!</p>
+				<p>Los llevan suspendidos por pies y por hombros; los brazos, les cuelgan rígidos; las manos, arañan el suelo. Descansan los azadones, cantan los sapos en el fondo de los prados, y los muertos van al fondo de la fosa. Un capellán castrense bendice la tierra. La tropa se descubre y hace la señal de la cruz. Entre la niebla y la luna danzan las siluetas confusas de dos soldados que apisonan la tierra, y el camillero que ha recogido la cabeza trunca, se limpia en la yerba las manos pegajosas de sangre. Luego, para disipar las ideas tristes, todos trincan aguardiente esparcidos sobre la orilla del camino.</p>
+			</div>
+			<div n="18" type="chapter" xml:id="ne0037_chap18">
+				<head>¶ CAP. XVIII</head>
+
+				<p>El carro se detiene delante de un hospital con tres hileras de ventanas iguales, a la entrada de la villa de San Dionisio. Muchas casas tienen hundida la techumbre; otras, derribado algún esquinal; las acacias de la plaza también muestran las huellas del bombardeo, y son tantas las ramas desgajadas, que cubren el camino como una alfombra. En el hospital, todas las ventanas están sin cristales. Las tres mujeres penetran tímidamente en el zaguán, y una monja halduda, con grandes tocas y gran rosario pendulando de la cintura, les sale al encuentro. Las dos hermanas, al verla, comienzan a sollozar con extrema congoja, y la monja las toma de las manos y las lleva por un corredor blanco, alumbrado, a grandes trechos, por lamparillas de petróleo. Sobre el muro se desenvuelve un vía crucis, y en el vasto silencio de la santa casa, resuena el alarido de una mujer doliente. Las dos niñas, con el pañuelo sobre el rostro, sofocan su congoja, y la monjita habla consolándolas con una voz balsámica. La madre va detrás, atónita, deshecha, agotada. Pasa presurosa una mandadera con ropa blanca:</p>
+				<p>—¡Ave María Purísima!</p>
+				<p>—¡Sin pecado concebida!</p>
+				<p>Empuja la puerta que hay entornada hacia el final del corredor, y brevemente se ve a otra monja vieja, sentada en una silla baja, poniendo los pañales a un recién nacido. Las dos hermanas vuelven los ojos a la madre y se abrazan a ella crispadas y dando gritos. La profesa las empuja suavemente, las lleva a una sala grande, blanca, cuadrada, fría en fuerza de limpia y desnuda.</p>
+			</div>
+			<div n="19" type="chapter" xml:id="ne0037_chap19">
+				<head>¶ CAP. XIX</head>
+
+				<p>Cuando entra el médico, la monjita se retira a la puerta y espera allí, bajos los ojos y las manos en cruz. El médico es un viejo enjuto, con el gesto apasionado y expresivo de los grandes habladores. Saluda al entrar:</p>
+				<p>—¿Qué tienen estas niñas?</p>
+				<p>Luego, viéndolas afligirse, murmura con la voz conciliadora y simpática:</p>
+				<p>—¡Bueno, ya sé lo que tienen! ¡No se apuren, hijas mías!</p>
+				<p>Se sienta cerca de la madre:</p>
+				<p>—Primero será bien que nosotros dos celebremos consejo.</p>
+				<p>La madre mira obstinadamente sus manos cruzadas, y alza las cejas:</p>
+				<p>—Sí, señor, sí... ¿Usted ya está enterado...?</p>
+				<p>—De todo, hijas, de todo... Dicen que es la guerra... ¡Mentira! Nunca el quemar y el violar ha sido una necesidad de la guerra. Es la barbarie atávica que se impone... Todavía esos hombres tienen muy próximo el abuelo de las selvas, y en estos grandes momentos revive en ellos. Es su verdadera personalidad que la guerra ha determinado y puesto de relieve, como hace el vino con los borrachos.</p>
+				<p>Una de las muchachas murmura crispada: </p>
+				<p>—¡Es el odio a Francia!</p>
+				<p>El médico la mira lleno de simpatía y le estrecha la mano:</p>
+				<p>—Es el odio al mundo clásico, hija mía. Odio de incluseros a los que tienen abolengo.</p>
+				<p>Aquel viejo enjuto, de ojos hundidos, velados por largos párpados como las águilas, tenía en la voz una sinceridad apasionada que comenzaba a ganar el corazón de las tres pobres mujeres. La madre es blanca, pesada, con el rostro enrojecido por las lágrimas: Hace recordar esas muñeconas ajadas y maltratadas que deshechan los niños. De las dos hijas, sólo la más pequeña tiene los rasgos de la madre. Carolina, la mayor, es alta, delgada, con una palidez lunaria, y los ojos negros, cargados de tristeza. Aun no ha desaparecido por completo la sonrisa de su boca, que debió ser llena de gracia. Tiene el cabello fosco, y cuando lo aparta de la frente, descubre sobre las sienes dos rincones de locura. Enriqueta, la menor, es rubia, muy infantil, y tan blanca y fina de tez, que toda la cara tiene escaldada de llorar. El médico se levanta, mira de cerca el rostro de las dos muchachas, las pulsa, y, finalmente, las ruega que se pongan en pie. Con una mirada seria y profunda las recorre de arriba abajo:</p>
+				<p>—¡Bueno! Ya estoy enterado... Ahora no conviene molestarlas más. Ahora que descansen. Mañana haremos un reconocimiento detenido...</p>
+				<p>La mayor de las muchachas se dejó caer en la silla, tapándose la cara con las manos:</p>
+				<p>—¡Doctor, yo no quiero tener un hijo de los bárbaros!... ¡No quiero llevar este contagio conmigo! ¡Si usted no me liberta de esta cadena, yo me mataré!</p>
+				<p>Acabó en una crisis nerviosa, torciendo los ojos, rechinando los dientes, y levantándose con grandes botes de la silla, entre los brazos de la madre y la hermana, que habían acudido a sostenerla. Salió de aquel estado pálida, ojerosa, contrita, hablando en voz muy tenue, con una expresión de dolor desvalido, de vida miserable que se acaba:</p>
+				<p>—¡Haber nacido para esto! ¡Haber vivido para esto!</p>
+			</div>
+			<div n="20" type="chapter" xml:id="ne0037_chap20">
+				<head>¶ CAP. XX</head>
+
+				<p>Cerca del amanecer llega un convoy de heridos. Bajo las acacias desmochadas se tienden cuarenta carros de la Cruz Roja. Falta sitio, y las monjitas belgas, refugiadas en aquel hospital de una villa francesa, ofrecen sus celdas y sus lechos, blancos como altares, para los soldados de la República. Los corredores rebosan de heridos. Yacen las camillas a uno y otro rumbo del muro, formando una vía dolorosa llena de quejas y largos ayes. Algunos heridos leves, pálidos y soñolientos, con los vendajes salpicados de sangre y de barro, descansan en los bancos del locutorio. La escalera está llena de soldados dormidos, con las mochilas por cabezal: Se arrebujaban en pardas mantas, exhalaban un vaho húmedo: Son bisoños aspeados, y tan rendidos de fatiga, que, al entrar bajo techado, tiran la mochila por delante y se tumban.—Los corredores están llenos de movimiento, de voces y de lodo. En el camino que forman las dos hileras de camillas, los clavos de las fuertes botas militares dejan su impronta. Al ruido de los pasos, una mano, que muestra su lividez bajo la suciedad del barro y de la pólvora, levanta el hule del cabecero:</p>
+				<p>—¡Me muero de sed! ¡Me muero de sed!</p>
+				<p>Es una voz sofocada. Se ve la frente envuelta en vendajes de gasa con roeles de sangre fresca, y todo el rostro desaparece bajo los vendajes. De otras camillas se escapa una queja débil, de otras palabras acalenturadas, estertores, gritos de delirio, también hay algunas en silencio profundo, como féretros. Los gritos, las suplicaciones, las frases caóticas devanadas sin tregua, hacen babel. Un herido no cesa de gritar:</p>
+				<p>—¡Los ingleses! ¡Los ingleses!</p>
+				<p>Retiembla la camilla, saca los brazos agitando las manos:</p>
+				<p>—¡Los ingleses! ¡Los ingleses!</p>
+				<p>Y siempre lo mismo, el mismo sopor inexpresivo en el grito, el mismo pensamiento oscuro dando vueltas como la piedra de un molino. Era más angustioso de oír que una queja desgarrada. Otro herido da voces heroicas; otro, ríe con gran jolgorio:</p>
+				<p>—¡No te vayas, Juana! ¡Escucha, Juanita!... ¡Ja, ja!... ¡Si no te pellizco!</p>
+			</div>
+			<div n="21" type="chapter" xml:id="ne0037_chap21">
+				<head>¶ CAP. XXI</head>
+
+				<p>En la sala de operaciones, blanca e iluminada, médicos y enfermeros con delantales, no se dan reposo lavando heridas, restañando la sangre, rasgando vendajes. Sobre los tableros de mármol, las lámparas de alcohol levantan sus lenguas azules; los ayudantes desinfectan tijeras y pinzas; el olor del cloroformo, olor a manzanas, satura el aire. El Doctor Verdier murmura mientras desnudan a un herido:</p>
+				<p>—Me temo que seamos desbordados... Habrá que ver de habilitar la iglesia, porque aquí pronto nos faltará sitio. ¿Y paja? ¿Tendremos paja para hacer camastros?</p>
+				<p>Está librándose una gran batalla; se oye el bombardeo lejano y constante. Patrullas de caballería, carros de ametralladoras, convoyes de municiones escoltados por tropas de infantes, desfilan sin intervalo por la única calle de la villa, para ir a perderse en la bruma del Suroeste.</p>
+			</div>
+			<div n="22" type="chapter" xml:id="ne0037_chap22">
+				<head>¶ CAP. XXII</head>
+
+				<p>Desde hace muchos días, ingleses y franceses bombardean sin tregua las líneas alemanas, en tierras de Flandes y Picardía. Todos los caminos de la retaguardia están llenos de carros y de tropas: No cesan de cruzar automóviles del Estado Mayor. En algunos parajes el barro es tanto, que los soldados se entierran hasta la cintura, y los carros no pueden rodar. Largos convoyes quedan horas y horas detenidos sobre la cuneta de las carreteras, al socaire de los árboles que desmocha la metralla: Horas y horas, hasta que llega una orden con el cambio de ruta.—La vasta línea del horizonte se abre con el relámpago de los cañones, son tantos, que su claridad se enlaza, y parece un enorme pestañeo de la tierra en tinieblas. Desaparecen los ejércitos en el silo de sus parapetos, y en la negra llanura sin hombres, el estruendo de las bocas de fuego tiene la resonancia religiosa y magnífica de las voces elementarias en los cataclismos. Las tropas acantonadas en la retaguardia, sienten el impulso unánime de correr hacia delante: Los soldados abren el corazón a la victoria, y los caballos saludan con sensuales relinchos el caliente olor de la pólvora. En medio del horror y de la muerte, una vena profunda de alegría recorre los ejércitos de Francia. Es la conciencia de la resurrección.—Los artilleros, enterrados en sus casamatas, regulan el tiro de los cañones con un sentido matemático y devoto, como artífices que labrasen las piedras de un templo. Es la religión de la guerra, y como las almas tienen hermandad, sus palabras son breves: Por la virtud de la sonrisa y la luz de los ojos se comunican en el silencio: Cuando asomados a las troneras, contemplan el incendio de las granadas, cobran aquella expresión radiante que las santas apariciones ponían en el rostro de los místicos.</p>
+			</div>
+			<div n="23" type="chapter" xml:id="ne0037_chap23">
+				<head>¶ CAP. XXIII</head>
+
+				<p>Las bombas caen en lluvia sobre las trincheras alemanas, las desmoronan, las escombran, las arrasan: Es un ciclón de fuego. Y la artillería teutona, si responde rabiosa en unos parajes, en otros calla impotente para cubrir la extensa línea que los aliados atacan. Sus parapetos están llenos de muertos, y los soldados atónitos, huraños a los jefes, esperan el ataque de la infantería enemiga, sin una idea en la mente, ajenos a la victoria, ajenos a la esperanza. Eran los dueños de la fuerza, y advierten oscuramente que otra fuerza superior ha nacido contraria a ellos, contraria a los destinos de Alemania. Una sima profunda se abre en aquellas almas ingenuas y bárbaras, otro tiempo llenas de fe. Los jefes sienten la muda repulsa del soldado, el desasimiento de la tierra invadida, el anhelo pacífico por volver a los hogares: Y a los que están en las trincheras se les emborracha para darle bríos, y a los que sirven las ametralladoras se les trinca con ellas porque no puedan desertar, y el látigo de los oficiales que recorren la línea de vanguardia, pasa siempre azotando.</p>
+			</div>
+			<div n="24" type="chapter" xml:id="ne0037_chap24">
+				<head>¶ CAP. XXIV</head>
+
+				<p>El grito enorme de la batalla estremece toda la tierra picarda. Las aldeas están llenas de soldados, de caballos, de carros de municiones: En las esquinas hay puestos de café caliente, y los ventorrillos de las carreteras, iluminados por una luz de petróleo, rebosan de uniformes: La lumbre de las pipas abre rojos reflejos en las caras que gesticulan en un vaho de humo, y se enraciman delante del mostrador. De tarde en tarde un soldado sale a la puerta, mira al cielo y tiende la mano para cerciorarse de la lluvia. A lo largo del camino, carros de ametralladoras, carros de forrajes, carros de municiones, carros de artillería, esperan la orden de ruta: Cruzan automóviles con oficiales, y se pierden rápidamente en la niebla: Cruzan ciclistas con el fusil en banderola, jadeantes, obstinados sobre los pedales, y patrullas de caballería, y escuadras de infantes. Canta en la noche una gaita de escoceses; los cohetes abren sus rosas en el aire; los reflectores exploran la campaña, y los carros vuelven a rodar deshaciendo las carreteras. Tres hogueras, tres grandes hogueras, rojean sobre la llanura: Tres aldeas que los alemanes, al retirarse, han puesto en llamas.</p>
+			</div>
+			<div n="25" type="chapter" xml:id="ne0037_chap25">
+				<head>¶ CAP. XXV</head>
+
+				<p>Algunos artilleros duermen sobre el heno, en el establo de una granja, y el imaginaria da voces golpeando en la puerta:</p>
+				<p>—¡Orden de partir! ¡Orden de partir!</p>
+				<p>Se saca el ganado tirando de las colleras, y se engancha a tientas. Llueve. Los artilleros, malhumorados, van de una parte a otra como sombras:</p>
+				<p>—¡Cochino tiempo!</p>
+				<p>Se tropiezan, se injurian, hacen estallar los látigos sobre las ancas de los caballos. Una voz interroga:</p>
+				<p>—¿Se sabe adónde vamos?</p>
+				<p>Y otra voz responde:</p>
+				<p>—¡Al baile de las peladillas!</p>
+				<p>—¡Qué noche de aguas!</p>
+				<p>Los caballos alargan el cuello sacudiendo las orejas bajo la lluvia. En la oscuridad, los hombres y las bestias con su halo de niebla, tienen una lentitud incorpórea. No puede distinguirse quien habla, y las voces están llenas de vaguedad, como si viniesen de muy lejos:</p>
+				<p>—¡Cochino tiempo y cochina guerra! ¡Cuándo acabará esto!</p>
+				<p>—¡Esto no acaba nunca!</p>
+				<p>Un soldado grita enfurecido:</p>
+				<p>—¡Sooo!... ¡El diablo tiene este ladrón! ¡Sooo, Fanfan!</p>
+				<p>Los conductores en el pescante de los carros, templan las bridas y restallan el látigo. La batería está formada sobre la carretera fangosa. En una esquina, al abrigo de la iglesia, brilla el anafre de una vieja que vende café y aguardiente a los soldados, que, inclinados sobre el cuello de sus caballos, le tienden los vasos. La vieja va de unos en otros con la mano puesta sobre la faltriquera llena de calderilla:</p>
+				<p>—¡Buena suerte, mocines!</p>
+				<p>La batería rueda por la carretera llena de baches, entre ráfagas de lluvia, y ráfagas de viento que aborrasca la crin de los caballos. La oscuridad es tan densa, que los artilleros, sentados sobre los armones, no alcanzan a ver el tiro delantero, y la silueta del guía aparece apenas como una sombra indecisa y movediza. Los soldados guardan silencio, entumecidos y desalentados. De tarde en tarde, un gruñido:</p>
+				<p>—¡Cochino tiempo!</p>
+				<p>—¡Cochina guerra!</p>
+				<p>—¡Y esto no acaba nunca!</p>
+				<p>—Esto lo acabarán las mujeres.</p>
+				<p>Un soldado destapa la cantimplora del aguardiente, y se la ofrece al que va a su vera en el armón. El otro trinca:</p>
+				<p>—¡Es un viaje de recreo! ¿Y adonde nos llevarán los señores?</p>
+				<p>—Adonde no hagamos falta. En llegando, nos mandarán retirarnos.</p>
+				<p>—¡Si tuvieran goteras los autos del Estado Mayor!</p>
+				<p>Los armones rebotan en los baches. El barro salpica la espalda de los artilleros. El látigo estalla sobre las grupas de los caballos que galopan contra el viento y la lluvia, levantada la ola de la crin.</p>
+				<p>A lo largo de las líneas hay un silencio lleno de recelos. Se oye el resoplar de un tren que derrama su cabellera de chispas en la cerrazón de la noche.</p>
+			</div>
+			<div n="26" type="chapter" xml:id="ne0037_chap26">
+				<head>¶ CAP. XXVI</head>
+
+				<p>¡Las Argonas! ¡Lluvia y viento! ¡Lluvia y viento a todo dar de Dios! Una silenciosa escuadra de peludos avanza en fila india chapoteando en el barro de la trinchera. El cabo explora el camino con una linterna sorda que abre ráfagas de luz en la negrura del foso. Son diez y seis hombres tristes y entumecidos, diez y seis voluntades sumisas al destino de Francia. Avanzan por la trinchera anegada, resbalando, cayendo, levantándose cubiertos de cieno, resignados al viento, a la lluvia y a la muerte. De tiempo en tiempo, entre el sordo rumor de su marcha, se percibe el entrechoque de palas y zapapicos. En algunos parajes, la tufarada de podredumbre escalofría las carnes. En otros, el fuego de los cañones alemanes ha removido la tierra a tal extremo, que de la trinchera no queda el más leve vestigio, y los soldados se extravían en un lago de barro. Tomin, el cabo de la escuadra, explora el campo, y en voz baja da órdenes para abrir el desagüe. Los soldados trabajan con una resignación sombría, y un poso de odio para aquellos que invaden la tierra francesa: ¡Aquellos soldados chatos y brutales que cantan como salvajes, que combaten borrachos, que soportan el látigo de los oficiales, que son esclavos en una tierra donde aun hay castas y reyes! Para los soldados franceses, el sentimiento de la dignidad humana se enraíza con el odio a las jerarquías: La Marsellesa les conmueve hasta las lágrimas, y tienen de sus viejas revoluciones la idea sentimental de un melodrama casi olvidado, donde son siempre los traidores, príncipes y reyes.</p>
+			</div>
+			<div n="27" type="chapter" xml:id="ne0037_chap27">
+				<head>¶ CAP. XXVII</head>
+
+				<p>Los diez y seis hombres de la escuadra trabajan en silencio: Están a pocos pasos de las líneas alemanas y el más leve rumor puede descubrirles: Abren una zanja que en pocos momentos se atuye de agua fangosa. Las alambradas rotas y retorcidas salen de entre el barro desgarrándoles la carne, y cavan enredados en ellas. Cuando los cohetes se encienden en el aire, los peludos franceses quedan inmóviles en el lago de cieno. De tarde en tarde una ametralladora perdida en la noche, desgrana sus truenos: El sonido se esfuma a intervalos en las ráfagas del viento y la lluvia, tiene repliegues profundos como si tomase la forma quebrada del terreno: Se revela de pronto, y de pronto se amengua, en una línea llena de dramatismo. Los soldados prolongan la zanja hasta un barranco, y el agua se precipita haciendo torrente. Comienza a perfilarse la forma de la trinchera. Aparecen algunos muertos enracimados en el fondo, y los soldados van sacándolos de entre el cieno y alineándolos sobre el talud. Desentierran dos ametralladoras retorcidas como virutas. El cabo mete su linterna por la boca de los abrigos: La luz tiembla sobre el agua dormida, las ratas trepan asustadizas por el muro de tierra, y unas botas negras e hinchadas rompen el haz de la charca. Las aguas hacen un círculo en torno. Los pies del muerto tienen un ligero vaivén. El cabo murmura:</p>
+				<p>—Dejaremos para mañana achicar el agua.</p>
+				<p>Un peludo se acerca, y mete la cabeza atisbando por detrás del cabo:</p>
+				<p>—¡Aquí parece que no se ha salvado ninguno!</p>
+				<p>El cabo le mira por encima del hombro: </p>
+				<p>—¡Las ratas! </p>
+				<p>—¡Esos ya descansan! </p>
+				<p>—Pues tú no te cambiarías por ellos... Y al cabo, si no hoy, mañana, todos estaremos así.</p>
+				<p>Se alejan encorvados bajo el temporal. Se oye el rumor del agua que baja al barranco. El soldado murmura:</p>
+				<p>—¡Si la guerra acabase!...</p>
+				<p>—¿Tú, qué gente tienes allá abajo?</p>
+				<p>—Mujer y tres hijos. ¿Y tú?</p>
+				<p>—¡Nadie!</p>
+				<p>—¿Eres soltero?</p>
+				<p>—Soy divorciado.</p>
+				<p>El cabo mete la linterna por la boca de otro abrigo. La luz tiembla sobre el agua negra. Un perro de lanas nada teniendo en los dientes el brazo de un cuerpo que se hunde. Se ve la mano lívida. El perro nada hacia la luz.</p>
+			</div>
+			<div n="28" type="chapter" xml:id="ne0037_chap28">
+				<head>¶ CAP. XXVIII</head>
+
+				<p>Palidecen las estrellas del alba, y comienza el relevo de tropas en todo el frente de batalla. Las columnas de soldados avanzan por cientos de caminos. Los que van a las trincheras fuman ahincadamente la pipa, y distraen los ojos sobre la campaña, hablan con ingenua sonrisa, tienen el rostro encendido del frío, y el mirar sereno. Por las carreteras se perfilan los largos convoyes: Unas veces, inmóviles, tendidos a lo largo de los pueblos bombardeados; otras, rodantes; otras, descansando a la sombra de las alamedas. Los soldados que tornan de las trincheras caminan en silencio, dispersos, rezagados, cubiertos de barro, el rostro en gran palidez, y los ojos atónitos bajo el ceño obstinado. Las formas de las cosas se revelan en la luz indecisa del alba. Negros trenes cargados de tropas cruzan sobre puentes de bruma, con gran estrépito de hierros: Huyen por las llanuras, aparecen y desaparecen entre boscajes, jadean por altos terraplenes. A retaguardia del enorme foso que ondula desde el mar a los montes alsacianos, los pueblos bombardeados salen de la noche con la expresión trágica de la guerra. Ciudades cercadas por serenos ríos, villas sobre provinciales carreteras, aldeas entre prados, levantan sus ruinas frente al campo de batalla. Las casas, negras del incendio, con la techumbre hundida entre los cuatro paredones, y desmoronándose las tripas de cascote, son ruinas de una emoción árida y acongojada. Muchas ya tienen su recinto lleno de ortigas y lagartos. Los cementerios militares se tienden a la vera de los caminos, entre los pueblos quemados y saqueados.—¡Campos de cruces, húmedos campos de aquel verde triste y cristalino que tiene la emoción remota y musical del divino sollozo con que se ama! —Los cementerios marcan la línea de las batallas, y las tumbas francesas y las alemanas están cavadas a la par. La bruma del alba se sutiliza sobre las ruinas, se desgarra en las cruces, vuela ingrávida sobre el enorme foso desde los montes alsacianos a las marinas flamencas, y en este lívido tránsito de la noche al día comienzan a perfilarse las formas de los muertos. Hay parajes donde se amontonan, y otros de muchas leguas llenos del canto de los pájaros, como olvidados de la matanza. Este momento frío y gris, en que el soldado al salir de las tinieblas de la noche, mira en torno suyo los compañeros muertos, las ametralladoras rotas, la trinchera desmoronada, es el más deprimente de la guerra. Las tropas vuelven de las trincheras a sus alojamientos con una expresión de trágica demencia. Y al ventero, delante de la puerta donde se detienen a beber un vaso de vino; y a los viejos que labran los campos; y a las mujeres que guían un carricoche; a todos cuantos preguntan de la batalla, responden con el mismo gesto obstinado, con la misma voz apasionada:</p>
+				<p>—¡No pasarán!</p>
+			</div>
+			<div n="29" type="chapter" xml:id="ne0037_chap29">
+				<head>¶ CAP. XXIX</head>
+
+				<p>Esta misma hora es de nieve y ventisca en los montes alsacianos, de niebla espesa en el mar, de fría lividez en la Champaña... Pero en las doscientas leguas de foso cenagoso, lleno de ratas y de resplandores, donde el peludo tirita con las manos doloridas sobre el fusil, estallan las bombas desmoronando los parapetos, desgranan las ametralladoras sus truenos, se abre el eco profundo de las minas. Hay parajes llenos de ardor, de ira y de tumulto, que repentinamente quedan en silencio con sus largas hileras de muertos aplastados sobre la tierra. Grandes vuelos de cuervos se abaten bajo el cielo del alba. Se queja el herido oculto en la maleza, y el que se arrastra por el borde del camino, y el otro cubierto de sangre, que se recuesta sobre el talud de la trinchera, y aquellos tan pálidos, con la frente vendada, que abren los ojos sobre el cabezal de las camillas. Las patrullas exploran el campo, y por las mil trochas que arriban a la línea de fuego, van los soldados en difuso deslayo. Para no resbalar en el lodo se apoyan en fuertes maquilas, y por distintas trochas los camilleros vienen y van. En alguna casamata, a la redonda de la estufa donde hierve el agua del café, los oficiales conversan de guerra y de mujeres. Son jóvenes, y para la vida y para la muerte tienen una sonrisa llena de gracia inconsciente, como en el tiempo de la gran Revolución.</p>
+			</div>
+			<div n="30" type="chapter" xml:id="ne0037_chap30">
+				<head>¶ CAP. XXX</head>
+
+				<p>En la retaguardia velan los Cuarteles Generales. Suena de continuo el timbre del teléfono: Llegan soldados ciclistas cubiertos de lodo con un vaho de niebla: Se reciben noticias del frente de batalla, se transmiten órdenes, y los oficiales se encorvan consultando las grandes cartas geográficas. Cuando alguna vez nombran a los alemanes, lo hacen sin odio y sin jactancia, pero con aquel íntimo menosprecio que tuvo el latino por los pueblos extraños.—Para el alma francesa, armoniosa y clásica, el teutón continúa siendo el bárbaro—. Los timbres eléctricos no dejan de sonar, y todo se hace despacio, con mesura, sin nervios. De tarde en tarde aparece en la puerta de la vasta sala un oficial que saluda cuadrándose: Viene de la obscuridad, del barro, de la lluvia y trae un pliego. El general le estrecha la mano y le ofrece una taza de café caliente. Después le ruega que hable, con esa noble cortesía que es tradición de las armas francesas. Y otra vez los timbres, y las órdenes breves, y el esperar, el esperar atentos.</p>
+			</div>
+			<div n="31" type="chapter" xml:id="ne0037_chap31">
+				<head>¶ CAP. XXXI</head>
+
+				<p>Sobre la gran llanura picarda, la batalla se encrespa. Por el laberinto de zanjas cavado a retaguardia de la primera línea de trincheras, y camino para llegar a ellas, avanzan escuadras de infantes ingleses y franceses, que corren en fila india, resbalando y chapoteando en el barro, anhelantes por llegar. Las bombas alemanas ruedan, encendiendo los aires en el caos gris de la niebla, y estallan, desmoronando los taludes. En algunas ocasiones queda cegado el paso, y la tropa desfila bajo la descubierta del fuego enemigo, ligera y dispersa. El vasto campo de la batalla se les aparece de pronto, nebuloso y profundo, estremecido de instante en instante por las lumbres y el trueno de los cañones. Agazapándose, entran otra vez en el laberinto de zanjas, y caminan enterrados en el barro hasta las corvas, pero con un aliento nuevo. Pelotones de infantes arriban a la primera línea de trincheras por diversos caminos y en distantes parajes; el laberinto de zanjas es un hormiguero de hombres. Sobre el talud que da vista al campo enemigo, las escuadras alinean sus fusiles, y hacen fuego por descargas. Los torpedos, al estallar, destruyen los parapetos y sepultan a los hombres; trazan en el cielo su lenta curva; caen humeantes; abren hoyos profundos. Y, en el fondo de la llanura, flamea sobre el cielo negro el resplandor de tres aldeas en llamas, rodeadas de clamores:—Un cerco de mujeres trágicas que abrazan a sus hijos, y de viejos que levantan los brazos.</p>
+			</div>
+			<div n="32" type="chapter" xml:id="ne0037_chap32">
+				<head>¶ CAP. XXXII</head>
+
+				<p>Filo del amanecer, la infantería de los aliados se lanzó fuera de sus trincheras, asaltando las defensas alemanas. Los soldados, tendidos en ala, corren con la cabeza baja, alentados por el fuego de la artillería; resbalan, caen, chapotean, salvan las zanjas, se desgarran en las alambradas. Alguna vez, en los socavones de las balas desaparecen, sumiéndose lentamente, y el agua fangosa hace remolino en torno de los cascos. Sólo las manos asoman pidiendo auxilio, tan hondo cavaron las balas en la tierra. Hay parajes que son verdaderos tremedales. Las ametralladoras alemanas cruzan sus fuegos, y filas enteras caen como si se doblasen. En medio de la humareda, algunos soldados, muy destacados, siguen avanzando a la carrera, la granada en el puño. Las columnas de asalto se suceden en oleadas: Los muertos quedan atrás, aplastados sobre la tierra, medio desnudos, desgarradas las ropas por las explosiones: Los heridos se arrastran por las esguevas, buscan dónde cobijarse, y, hallado el seguro, levantan sus clamores pidiendo socorro:</p>
+				<p>—¡Nadie me vale! ¡Nadie me vale!</p>
+				<p>—¡Una gota de agua!</p>
+				<p>—-¡Camilleros! ¡Camilleros! ¡Camilleros!</p>
+				<p>—¡Y me dejáis morir!</p>
+				<p>—¡Ah! ¡Ah! ¡Ah!</p>
+				<p>—¡Nadie me vale! ¡Nadie me vale!</p>
+				<p>La niebla está llena de estas voces perdidas, empañadas de dolor; pero las olas de soldados siguen atravesando la llanura, corren de cara a las trincheras alemanas atuídas de muertos, y arrojan sus granadas, y dan voces con la dramática alegría de la guerra. La llamarada de las aldeas, flameando sobre el cielo negro, pasa sobre sus ojos, y les cubre el alma de un impulso de ira resplandeciente.</p>
+				<p>—¡Boches! ¡Bárbaros boches!</p>
+			</div>
+			<div n="33" type="chapter" xml:id="ne0037_chap33">
+				<head>¶ CAP. XXXIII</head>
+
+				<p>¡Qué cólera magnífica! ¡Qué chocar y rebotar, qué mítica pujanza tiene el asalto de las trincheras! ¡Y qué ciego impulso de vida sobre el fondo del dolor y de la muerte! ¡Cómo la gran batalla se quiebra y disloca en acciones parciales, en marchas, en flanqueos, en sorpresas, hasta desvanecer por completo su visión estelar en el tumulto del cuerpo a cuerpo, y acabar en un grito que es como el canto victorioso del gallo! Pero el pensamiento matemático, más fuerte que las vidas y las muertes, permanece inmutable en todas las formas de la batalla; es una ley en el tumulto de la trinchera, como en el tiro de la artillería. Todas las acciones diversas e imprevistas que sobrevienen, hallan un enlace armonioso en este formidable acorde. La guerra tiene una arquitectura ideal, que sólo los ojos del iniciado pueden alcanzar, y así está llena de misterio telúrico y de luz. En ninguna creación de los hombres se revela mejor el sentido profundo del paisaje, y se religa mejor con los humanos destinos. Por la guerra es eterna el alma de los pueblos. La lujuria creadora se aviva por ella, como la antorcha en el viento que la quiere apagar. Sólo la amenaza de morir perpetúa las formas terrenales, sólo la muerte hace al mundo divino. Si en las claras entrañas de los cristales no se engendran hijos es por su ilusión de eternidad, y las entrañas de la mujer son fecundas porque son mortales. Los monstruos gigantescos que rugieron ante la caverna del adamita, y fueron amenaza para todos los seres vivos, perecieron porque la lujuria se enfrió en ellos. Como eran llenos de fuerza y de dominio, estaban libres del terror de la muerte, y ninguna voz de la naturaleza pudo advertirles que no eran eternos. La muerte es la divina causalidad del mundo. ¡Y qué mística iniciación de esta verdad tan vieja se desvela en la guerra! Aquella ciega voluntad genesíaca que arrastra a los héroes de la tragedia antigua, ruge en las batallas.</p>
+			</div>
+			<div n="34" type="chapter" xml:id="ne0037_chap34">
+				<head>¶ CAP. XXXIV</head>
+
+				<p>La infantería avanza en negras oleadas; retiembla la tierra bajo el golpe uniforme de las ferradas botas; hay un coro de voces profundas:</p>
+				<p>—¡Adelante! ¡Adelante! ¡Adelante!</p>
+				<p>Una convulsión recorre la trinchera, y perdura vibrante en el tintineo de las bayonetas. Los alemanes gritan:</p>
+				<p>—¡Hurra! ¡Hurra! ¡Hurra!</p>
+				<p>Son miles de voces. Asoman apenas las puntas de los cascos, y los franceses las aplastan a golpes de granada. Al abrigo de la trinchera, desmoronada y llena de muertos, los alemanes hacen fuego de repetición. Acompasados, se echan los fusiles a la cara, y disparan. Innumerables lagartijas de llama rasgan las tinieblas. La ola de asaltantes, zuavos y legionarios extranjeros, penetra en la trinchera, y un bramido bestial los acoge. Las granadas ponen fuego en las yacijas de paja y en los capotes de los muertos, y el humo y el olor de la carne chamuscada sirve de fondo al clamor de los heridos. Un soldado alemán, envuelto en llamas, corre a través del campo dando gritos. El incendio, que rampa solapado por el fondo de la trinchera, a momentos, bajo el golpe de las granadas, se aviva y surge, llenando de reflejos las puntas de los cascos y el acero de las bayonetas. Se revela el rostro de los soldados, pálidos, salpicados de sangre, cubiertos de lodo, con los ojos agudos como puñales.—-La artillería de los aliados bombardea el campo que se extiende a retaguardia de la trinchera, y su fuego de cortina cierra el paso a las reservas que acuden a reforzar la primera línea. Los heridos alemanes se incorporan suplicantes:</p>
+				<p>—¡Franceses! ¡Franceses! ¡Camaradas!</p>
+				<p>Los que restan ilesos arrojan los fusiles y levantan los brazos:</p>
+				<p>—¡Camaradas! ¡Camaradas!</p>
+				<p>Forman grupos sombríos, atónitos, con una torva expresión de desamparo. La derrota los embrutece y envilece:</p>
+				<p>—¡No somos prusianos! ¡Somos bávaros!</p>
+				<p>Y otro grupo, arrodillado en el fango, con los brazos en alto:</p>
+				<p>—¡Los bávaros no queríamos la guerra! ¡Franceses! ¡Franceses! ¡Camaradas!</p>
+				<p>Perdida la esperanza de vencer, ciega como un instinto, ingenua y brutal, parecen bueyes desalentados. Los franceses les conceden cuartel con el gesto orgulloso de la victoria.</p>
+			</div>
+			<div n="35" type="chapter" xml:id="ne0037_chap35">
+				<head>¶ CAP. XXXV</head>
+
+				<p>Las tropas inglesas atacan en la izquierda del Ancre. Cientos de cañones, tronando al mismo tiempo, abren sus rojas golas en la bruma del amanecer, y tiembla sobre la tierra un arco de luz. Dura hace tres días el bombardeo, dominador y tenaz como el alma de la vieja Inglaterra. Las tropas acantonadas en la retaguardia, duermen pesadamente en un sopor de olvido, y, cuando llega la hora, el silbato de los sargentos las despierta: Se incorporan con rumor de ganado, los ojos cargados de visiones: Antes de partir, a la redonda de los bagajes, beben su taza de café caliente, el fusil al hombro, la mochila a la espalda. Con paso uniforme van por las carreteras en columna de a cuatro; los capotes mojados despiden un vaho acre, y, a poco de iniciada la marcha, ninguno habla. Las jornadas parecen interminables para el soldado cuando camina así, encerrado en la fila, viendo de continuo la espalda del que marcha delante, sintiendo escurrir por la carne el agua que gotea del casco. Es un deseo de llegar a la línea de batalla, de estrechar entre las manos el fusil que adormece el hombro dolorido, de sentirlo caliente y palpitante como una vida. Produce la angustia del mareo el monótono compás de los pasos: ¡Toe! ¡Toe! ¡Toe!</p>
+			</div>
+			<div n="36" type="chapter" xml:id="ne0037_chap36">
+				<head>¶ CAP. XXXVI</head>
+
+				<p>Al amparo de nieblas y tinieblas, las tropas alemanas abandonan las trincheras que la artillería enemiga desmorona y aplasta. Inician una retirada sigilosa, y aun cuando para encubrirla sostienen el fuego en algunos sectores, las patrullas inglesas, que mantienen el contacto, descubren la maniobra. Los cañones alargan sus tiros, y comienza el bombardeo de la segunda línea. Los reflectores esclarecen el campo, y, bajo el cielo nebuloso del alba, pasa un vuelo de aviones. Los alemanes se tienden en tierra, cercados por una cortina de fuego; los aviones los descubren, y las granadas comienzan a caer sobre ellos.</p>
+				<p>Entre nubes de humo y turbonadas de tierra, vuelan los cuerpos deshechos: Brazos arrancados de los hombros, negros garabatos que son piernas, cascos puntiagudos sosteniendo las cabezas en la carrillera, redaños y mondongos que caen sobre los vivos llenándolos de sangre y de inmundicias. Los alemanes, viéndose descubiertos, comienzan a gritar:</p>
+				<p>—¡Ingleses! ¡Ingleses! ¡Piedad! ¡Piedad, que somos hombres!</p>
+				<p>Es un mugir de espanto como en los eclipses de sol tienen los toros en la dehesa. Sobre el horizonte tiembla de continuo el resplandor de la batalla, y el tronar de la artillería parece una voz que saliese de los abismos de la tierra.</p>
+			</div>
+			<div n="37" type="chapter" xml:id="ne0037_chap37">
+				<head>¶ CAP. XXXVII</head>
+
+				<p>La caballería india, distribuida en fuertes escuadras, espera tras la línea de ataque; un estremecimiento la recorre; espuelas y sables se entrechocan. Los caballos levantan las orejas y abren la nariz al viento, alguno se encabrita y corre por la campaña rebotando al jinete entre los dos borrenes. En la media luz del alba blanquean los turbantes, y se mueven las siluetas, llenas de armonía bélica como figuras de un friso. Palidecen las estrellas, y el rojo resplandor de los incendios se levanta sobre el horizonte. Es el momento en que la caballería india se lanza, con la rienda suelta, para hacer prisioneros. El galope de los caballos sacude la tierra con un vasto rumor lleno de evocaciones antiguas. Los jinetes corren con los sables en alto, los ojos ardientes, la boca estremecida por una sonrisa blanca que descubre los dientes. Los alemanes, viéndoles llegar, levantan los brazos:</p>
+				<p>—¡Piedad! ¡Piedad!</p>
+				<p>Los jinetes indios pasan acuchillándolos, y revuelven los caballos con los sables siempre en alto. El corvo tajo fulgura feroz sobre los turbantes. Resuena un grito de asombro y de cólera:</p>
+				<p>—¡No dan cuartel! ¡No dan cuartel!</p>
+				<p>Los alemanes retroceden empuñando los fusiles; miran llegar a los jinetes entre nubes de humo, y, parapetados en los socavones de las granadas, hacen fuego. Se encabritan los caballos, y corren por el campo con largo relincho, el belfo palpitante, afrontados los ojos, levantada la crin. Una montura, con la rienda suelta, galopa espantada arrastrando al jinete, que va caído sobre la grupa, sin turbante, flotando la melena negra como el ala del cuervo, y un borbotón de sangre sobre el pecho. Los alemanes, entre descarga y descarga, levantan un terrible grito: </p>
+				<p>—¡Muera Inglaterra!</p>
+				<p>Los jinetes indios revuelven los caballos y sonríen crueles bajo el resplandor de los sables. Dan la última galopada sobre un campo de muertos, y se tornan a su real.</p>
+			</div>
+			<div n="38" type="chapter" xml:id="ne0037_chap38">
+				<head>¶ CAP. XXXVIII</head>
+
+				<p>El Cuartel General de Sir Francisco Murray, veterano de las guerras coloniales, está en un palacio de estilo neoclásico, en el fondo de la Picardia. Al Cuartel General llegan de continuo las nuevas de la batalla. Bajo la gran avenida de álamos se cruzan los automóviles del Estado Mayor. Los ordenanzas hablan con los soldados ciclistas que, prontos a partir, esperan al pie de la escalinata. En las vastas salas, apagadas y desiertas, resuena el timbre de los teléfonos. Cuatro oficiales trabajan en la biblioteca, que tiene las paredes cubiertas de planos militares, y en una estancia inmediata termina la conferencia de dos generales. Aparecen en la puerta de la biblioteca con los habanos encendidos y una sonrisa jovial. El más viejo tiene grandes bigotes canos y ojos de claro azul infantil enfoscados bajo las cejas. La frente, de una gran blancura, contrasta con las mejillas atezadas y llenas de arrugas. El otro es alto, fuerte, encendido, con anteojos de oro y un gesto de imperio en la boca rasurada. El viejo, interroga:</p>
+				<p>—¿Hay noticias de los franceses?</p>
+				<p>Uno de los oficiales revuelve los papeles que tiene delante, y le alarga una hoja:</p>
+				<p>—Aquí está el comunicado, mi general.</p>
+				<p>—¡Bueno! ¿Qué dice?</p>
+				<p>—Entre ayer y hoy han hecho seis mil prisioneros.</p>
+				<p>El general joven interrumpe:</p>
+				<p>—Nosotros no habremos hecho ninguno... No haremos prisioneros en muchos días.</p>
+				<p>Los oficiales se miraron, y uno aventuró:</p>
+				<p>—Sin embargo, ayer y hoy nosotros también hemos tenido un gran triunfo.</p>
+				<p>El General Murray hizo un gesto de asentimiento:</p>
+				<p>—Pero sin prisioneros.</p>
+				<p>Sir Guillermo Scott, el general viejo, reía con risa cascada, al mismo tiempo que se llenaba una copa de whisky:</p>
+				<p>—¡Sin prisioneros! ¿Verdad, señores, que los partes sin prisioneros son poco decorativos?</p>
+				<p>Sir Francisco Murray le miró como se mira a un niño:</p>
+				<p>—Dejemos lo teatral para los alemanes. Nuestros partes son partes ingleses. En muchos días no haremos prisioneros, porque es preciso castigar la felonía de aquellos prusianos que se acercaron gritando que se rendían, y a mansalva, seguros de que los ingleses no pueden tirar contra el enemigo que se entrega, atacaron nuestras trincheras con granadas de mano.</p>
+				<p>Sir Francisco Murray hablaba despacio, con un dejo de disgusto. Uno de los oficiales interrogó:</p>
+				<p>—Mi general, ¿y cuánto tiempo durará la orden de no conceder cuartel?</p>
+				<p>—Debía durar hasta el fin. El Imperio Alemán ha faltado a sus pactos, ha faltado a las leyes de la guerra, ha faltado a todos los usos del Derecho de Gentes... Pero ahora han sido los soldados quienes olvidaron y mancillaron el honor militar como una tribu salvaje, y hemos de imponerles el castigo impuesto tantas veces por nosotros en África y Oceanía.</p>
+				<p>Sonaba el timbre del teléfono, y uno de los oficiales se levantó. En la biblioteca todos callaban. La luz del alba rayaba en los postigos de las ventanas, y parpadeaban las luces: Se advertía en todos los semblantes la huella del insomnio. El oficial que había acudido al teléfono apareció en la puerta:</p>
+				<p>—Se confirma nuestro avance. ¡Una gran victoria sin prisioneros!</p>
+			</div>
+			<div n="39" type="chapter" xml:id="ne0037_chap39">
+				<head>¶ CAP. XXXIX</head>
+
+				<p>En el ápice de la noche y el día, sutiles nieblas vuelan sobre los ateridos Campos Cataláunicos. Tras las nieblas se perfila la masa de un ejército. Ruedan los cañones y galopan los caballos con rumor sonoro, que se difunde por la vasta plana endurecida de la helada, y limitada en su lejanía por azulados bosques. Los oficiales de órdenes caracolean sus caballos al detenerlos frente a los batallones, tendidos en línea bajo las banderas desplegadas. El General Goureaud revista las tropas, y decora las banderas con la Legión de Honor. Tiene un brazo cercenado, y el rostro curtido por todos los soles, la mirada exaltada y mística, con una luz azul de audacia sagrada. Besa las banderas al imponerles la cruz, y las banderas, rasgadas por la metralla enemiga, flamean sus jirones sobre la figura mutilada del General. Son de una emoción hermana y ejemplar las banderas desgarradas y aquel soldado manco estropeado en la guerra. Cantan los clarines con claras voces, desfilan al galope los jinetes, hacen salvas los cañones, y adelantan las escuadras de infantes acompasando el paso al redoble de los tambores. Una emoción religiosa cubre la vasta plana, y las sombras antiguas ofrecen sus laureles a los héroes jóvenes de la divina Francia.</p>
+			</div>
+			<div n="40" type="chapter" xml:id="ne0037_chap40">
+				<head>¶ CAP. XL</head>
+
+				<p>Ipres y Arras, Verdun y Reims, Thann y Metzeral, son grandes campamentos. A lo largo de las carreteras, bajo los árboles desmochados, en la puerta de los ventorros, por los establos de las granjas, todo a la redonda de las heroicas ciudades, está lleno de soldados. Patrullas de caballería, con grande y sonoro estrépito, galopan por las carreteras y atraviesan los dormidos burgos. En el fondo de los bosques, soldados con el torso desnudo sacrifican vacas y novillos. Las reses muertas cuelgan de las fuertes ramas, y las que van a morir rebullen acobardadas, dando tirones al ronzal. Por los verdosos y nebulosos ríos bajan los barcos hospitales. Atracan en los remansos para sepultar a los muertos, y vuelven a navegar, sonando una campana. Grupos de soldados, a la puerta de los alojamientos, limpian las armas, almohazan los caballos, aparejan los tiros y estiban las municiones en los carros. Escuadras de infantes vivaquean en el lindero de los bosques: Algunos se bañan en los arroyos: Otros, a la puerta de los albergues, entre los carros y las yuntas, fuman sus negras pipas, mientras los fuertes frisones de redondos cascos, trituran el pienso de avena, sepultado el hocico en un talego, y humillada la cerviz. Ruedan los convoyes en la niebla del amanecer, despacio, con un vaivén pesado. Bajo la lona sucia se perfila la forma rígida de los cañones, y en el izquierdo del tiro cabalga algún soldado veterano, de rojo mostacho partido en dos pábilos, y ojos aldeanos, claros ojos acostumbrados a mirar muy lejos, como los del marino, pero menos bruscos, y más llenos del amor de las cosas. Por todos los caminos que conducen al frente de batalla desfilan los largos convoyes, y, para disimularlos a la escudriña de los aviones enemigos, los carros van cubiertos de ramajes: Desfilan abriendo hondas rodadas, y las escoltas, repartidas a uno y otro lado, marchan en silencio. Los carros verdeantes de las ametralladoras tienen un vivo traqueteo, y entre unos y otros ruedan los que conducen las pesadas y plomizas cajas de municiones. En la retaguardia de las trincheras se tienden bosques quemados por los gases asfixiantes, granjas saqueadas, aldeas en escombros, iglesias con el campanario mocho... Es una sucesión de imágenes desoladas que no se interrumpe desde la costa norteña a los montes de Alsacia. En los atrios de las viejas ciudades estallan las granadas, caen las piedras de las catedrales, los pórticos coronados de santos tiemblan en sus cimientos, se rompen los rosetones, y las golondrinas vuelan asustadas por las naves desiertas. En la luz del día que comienza, la tierra, mutilada por la guerra, tiene una expresión dolorosa, reconcentrada y terrible.</p>
+			</div>
+		</body>
+		<back>
+			<div>
+			</div>
+		</back>
+	</text>
+
+</TEI>
