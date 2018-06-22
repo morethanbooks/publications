@@ -1,0 +1,70 @@
+
+
+
+Duda_Jerusalem 	-->	 Cervantes
+JCueva_Infamador 	-->	 Cervantes
+
+500 MFW , culled @ 0%,  4 of 5	(80%)
+
+
+
+Duda_Jerusalem 	-->	 Cervantes
+JCueva_Infamador 	-->	 Cervantes
+
+1000 MFW , culled @ 0%,  4 of 5	(80%)
+
+
+
+Duda_Jerusalem 	-->	 Cervantes
+JCueva_Infamador 	-->	 Cervantes
+
+1500 MFW , culled @ 0%,  4 of 5	(80%)
+
+
+
+Duda_Jerusalem 	-->	 Cervantes
+
+2000 MFW , culled @ 0%,  5 of 5	(100%)
+
+
+
+Duda_Jerusalem 	-->	 Cervantes
+
+2500 MFW , culled @ 0%,  5 of 5	(100%)
+
+
+
+Duda_Jerusalem 	-->	 Cervantes
+
+3000 MFW , culled @ 0%,  5 of 5	(100%)
+
+
+
+Duda_Jerusalem 	-->	 Cervantes
+
+3500 MFW , culled @ 0%,  5 of 5	(100%)
+
+
+
+Duda_Jerusalem 	-->	 Cervantes
+
+4000 MFW , culled @ 0%,  5 of 5	(100%)
+
+
+
+Duda_Jerusalem 	-->	 Cervantes
+
+4500 MFW , culled @ 0%,  5 of 5	(100%)
+
+
+
+Duda_Jerusalem 	-->	 Cervantes
+
+5000 MFW , culled @ 0%,  5 of 5	(100%)
+
+General attributive success:  47 of 50 (94%)
+
+MFWs from 500 to 5000 @ increment 500
+Culling from 0 to 0 @ increment 20
+Pronouns deleted: FALSE
+
